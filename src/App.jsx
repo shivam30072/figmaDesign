@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Navbar, Cover, Section, ProfileCard } from './components/Files'
 
 const App = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   return (
     <div className={`${toggle ? 'bg-black/60' : ''}`}>
 
